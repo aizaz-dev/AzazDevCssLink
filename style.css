@@ -1,0 +1,1067 @@
+/*
+===============
+Universal-Classes
+===============
+*/
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/*
+======X=========
+Universal-Classes
+======X=========
+*/
+
+/*
+===============
+Predefined CSS
+===============
+*/
+/* FONTS-SIZE */
+.size-0 {
+  font-size: 12px;
+}
+.size-1 {
+  font-size: 16px;
+}
+.size-2 {
+  font-size: 20px;
+}
+.size-3 {
+  font-size: 24px;
+}
+.size-4 {
+  font-size: 30px;
+}
+.size-5 {
+  font-size: 36px;
+}
+.size-6 {
+  font-size: 42px;
+}
+/* X=== FONTS-SIZE ===X */
+/* FONT-WEIGHT */
+.bold {
+  font-weight: 900;
+}
+.weight-0 {
+  font-weight: 100;
+}
+.weight-1 {
+  font-weight: 200;
+}
+.weight-2 {
+  font-weight: 300;
+}
+.weight-3 {
+  font-weight: 400;
+}
+.weight-4 {
+  font-weight: 500;
+}
+.weight-5 {
+  font-weight: 800;
+}
+.weight-6 {
+  font-weight: 900;
+}
+/* X=== FONT-WEIGHT ===X */
+/* === MARGIN === */
+.m-0 {
+  margin: 4px;
+}
+.m-1 {
+  margin: 8px;
+}
+.m-2 {
+  margin: 12px;
+}
+.m-3 {
+  margin: 16px;
+}
+.m-4 {
+  margin: 20px;
+}
+.m-5 {
+  margin: 24px;
+}
+.m-6 {
+  margin: 28px;
+}
+.ml-0 {
+  margin-left: 4px;
+}
+.ml-1 {
+  margin-left: 8px;
+}
+.ml-2 {
+  margin-left: 12px;
+}
+.ml-3 {
+  margin-left: 16px;
+}
+.ml-4 {
+  margin-left: 20px;
+}
+.ml-5 {
+  margin-left: 24px;
+}
+.ml-6 {
+  margin-left: 28px;
+}
+.mr-0 {
+  margin-right: 4px;
+}
+.mr-1 {
+  margin-right: 8px;
+}
+.mr-2 {
+  margin-right: 12px;
+}
+.mr-3 {
+  margin-right: 16px;
+}
+.mr-4 {
+  margin-right: 20px;
+}
+.mr-5 {
+  margin-right: 24px;
+}
+.mr-6 {
+  margin-right: 28px;
+}
+.mt-0 {
+  margin-top: 4px;
+}
+.mt-1 {
+  margin-top: 8px;
+}
+.mt-2 {
+  margin-top: 12px;
+}
+.mt-3 {
+  margin-top: 16px;
+}
+.mt-4 {
+  margin-top: 20px;
+}
+.mt-5 {
+  margin-top: 24px;
+}
+.mt-6 {
+  margin-top: 28px;
+}
+.mb-0 {
+  margin-bottom: 4px;
+}
+.mb-1 {
+  margin-bottom: 8px;
+}
+.mb-2 {
+  margin-bottom: 12px;
+}
+.mb-3 {
+  margin-bottom: 16px;
+}
+.mb-4 {
+  margin-bottom: 20px;
+}
+.mb-5 {
+  margin-bottom: 24px;
+}
+.mb-6 {
+  margin-bottom: 28px;
+}
+.m-auto {
+  margin: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+/* X=== MARGIN ===X */
+
+/* === PADDING === */
+.p-0 {
+  padding: 4px;
+}
+.p-1 {
+  padding: 8px;
+}
+.p-2 {
+  padding: 12px;
+}
+.p-3 {
+  padding: 16px;
+}
+.p-4 {
+  padding: 20px;
+}
+.p-5 {
+  padding: 24px;
+}
+.p-6 {
+  padding: 28px;
+}
+.pl-0 {
+  padding-left: 4px;
+}
+.pl-1 {
+  padding-left: 8px;
+}
+.pl-2 {
+  padding-left: 12px;
+}
+.pl-3 {
+  padding-left: 16px;
+}
+.pl-4 {
+  padding-left: 20px;
+}
+.pl-5 {
+  padding-left: 24px;
+}
+.pl-6 {
+  padding-left: 28px;
+}
+.pr-0 {
+  padding-right: 4px;
+}
+.pr-1 {
+  padding-right: 8px;
+}
+.pr-2 {
+  padding-right: 12px;
+}
+.pr-3 {
+  padding-right: 16px;
+}
+.pr-4 {
+  padding-right: 20px;
+}
+.pr-5 {
+  padding-right: 24px;
+}
+.pr-6 {
+  padding-right: 28px;
+}
+.pt-0 {
+  padding-top: 4px;
+}
+.pt-1 {
+  padding-top: 8px;
+}
+.pt-2 {
+  padding-top: 12px;
+}
+.pt-3 {
+  padding-top: 16px;
+}
+.pt-4 {
+  padding-top: 20px;
+}
+.pt-5 {
+  padding-top: 24px;
+}
+.pt-6 {
+  padding-top: 28px;
+}
+.pb-0 {
+  padding-bottom: 4px;
+}
+.pb-1 {
+  padding-bottom: 8px;
+}
+.pb-2 {
+  padding-bottom: 12px;
+}
+.pb-3 {
+  padding-bottom: 16px;
+}
+.pb-4 {
+  padding-bottom: 20px;
+}
+.pb-5 {
+  padding-bottom: 24px;
+}
+.pb-6 {
+  padding-bottom: 28px;
+}
+.p-auto {
+  padding: auto;
+}
+.pl-auto {
+  padding-left: auto;
+}
+.pr-auto {
+  padding-right: auto;
+}
+.pt-auto {
+  padding-top: auto;
+}
+.pb-auto {
+  padding-bottom: auto;
+}
+/* X=== PADDING ===X */
+
+/* FLEX-PROPERTIES */
+.display-flex {
+  display: flex;
+}
+.direction-row {
+  flex-direction: row;
+}
+.direction-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.gap-0 {
+  gap: 4px;
+}
+.gap-1 {
+  gap: 8px;
+}
+.gap-2 {
+  gap: 12px;
+}
+.gap-3 {
+  gap: 16px;
+}
+/* X=== FLEX-PROPERTIES ===X */
+
+.bg-brown {
+  background-color: brown;
+}
+.bg-chocolate {
+  background-color: chocolate;
+}
+.bg-crimson {
+  background-color: crimson;
+}
+.bg-silver {
+  background-color: silver;
+}
+.bg-gold {
+  background-color: gold;
+}
+
+/* bgBlue */
+.bg-lightblue {
+  background-color: lightblue;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-darkblue {
+  background-color: darkblue;
+}
+
+.bg-blue-0 {
+  background-color: rgb(6, 6, 51);
+}
+.bg-blue-1 {
+  background-color: rgb(8, 8, 90);
+}
+.bg-blue-2 {
+  background-color: rgb(11, 11, 143);
+}
+.bg-blue-3 {
+  background-color: rgb(10, 10, 180);
+}
+.bg-blue-4 {
+  background-color: rgb(32, 48, 189);
+}
+.bg-blue-5 {
+  background-color: rgb(32, 126, 189);
+}
+.bg-blue-6 {
+  background-color: lightblue;
+}
+
+/* bgRed */
+
+.bg-red {
+  background-color: red;
+}
+.bg-darkred {
+  background-color: darkred;
+}
+.bg-red-0 {
+  background-color: rgb(54, 1, 1);
+}
+.bg-red-1 {
+  background-color: rgb(82, 5, 5);
+}
+.bg-red-2 {
+  background-color: rgb(143, 9, 9);
+}
+.bg-red-3 {
+  background-color: rgb(233, 10, 10);
+}
+.bg-red-4 {
+  background-color: rgb(245, 30, 30);
+}
+.bg-red-5 {
+  background-color: rgb(235, 60, 60);
+}
+.bg-red-6 {
+  background-color: rgb(240, 106, 106);
+}
+
+/* bggreen */
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-darkgreen {
+  background-color: darkgreen;
+}
+.bg-green-0 {
+  background-color: rgb(2, 43, 2);
+}
+.bg-green-1 {
+  background-color: rgb(3, 75, 3);
+}
+.bg-green-2 {
+  background-color: rgb(7, 136, 7);
+}
+.bg-green-3 {
+  background-color: rgb(9, 165, 9);
+}
+.bg-green-4 {
+  background-color: rgb(11, 216, 11);
+}
+.bg-green-5 {
+  background-color: rgb(59, 230, 59);
+}
+.bg-greeen-6 {
+  background-color: lightgreen;
+}
+/* bgpink */
+.bg-lightpink {
+  background-color: lightpink;
+}
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-pink-0 {
+  background-color: rgb(218, 5, 40);
+}
+.bg-pink-1 {
+  background-color: rgb(218, 23, 55);
+}
+.bg-pink-2 {
+  background-color: rgb(219, 21, 54);
+}
+.bg-pink-3 {
+  background-color: rgb(231, 45, 76);
+}
+.bg-pink-4 {
+  background-color: rgb(243, 68, 97);
+}
+.bg-pink-5 {
+  background-color: rgb(250, 146, 163);
+}
+.bg-pink-6 {
+  background-color: pink;
+}
+
+/* bgaqua */
+
+.bg-aqua {
+  background-color: aqua;
+}
+
+.bg-aqua-0 {
+  background-color: rgb(1, 26, 26);
+}
+.bg-aqua-1 {
+  background-color: rgb(3, 48, 48);
+}
+.bg-aqua-2 {
+  background-color: rgb(7, 92, 92);
+}
+.bg-aqua-3 {
+  background-color: rgb(10, 139, 139);
+}
+.bg-aqua-4 {
+  background-color: rgb(15, 184, 184);
+}
+.bg-aqua-5 {
+  background-color: rgb(17, 207, 207);
+}
+.bg-aqua-6 {
+  background-color: rgb(5, 248, 248);
+}
+/* bgmagenta */
+
+.bg-magenta {
+  background-color: magenta;
+}
+.bg-darkmagenta {
+  background-color: darkmagenta;
+}
+.bg-magenta-0 {
+  background-color: rgb(43, 1, 43);
+}
+.bg-magenta-1 {
+  background-color: rgb(63, 2, 63);
+}
+.bg-magenta-2 {
+  background-color: rgb(90, 3, 90);
+}
+.bg-magenta-3 {
+  background-color: rgb(134, 5, 134);
+}
+.bg-magenta-4 {
+  background-color: rgb(180, 8, 180);
+}
+.bg-magenta-5 {
+  background-color: rgb(212, 9, 212);
+}
+.bg-magenta-6 {
+  background-color: magenta;
+}
+/* bgpurple */
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-purple-0 {
+  background-color: rgb(83, 1, 83);
+}
+.bg-purple-1 {
+  background-color: rgb(167, 3, 167);
+}
+.bg-purple-2 {
+  background-color: rgb(153, 32, 153);
+}
+.bg-purple-3 {
+  background-color: rgb(170, 57, 170);
+}
+.bg-purple-4 {
+  background-color: rgb(201, 63, 201);
+}
+.bg-purple-5 {
+  background-color: rgb(211, 91, 211);
+}
+.bg-purple-6 {
+  background-color: rgb(235, 177, 235);
+}
+/* bgyellow */
+
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-lightyellow {
+  background-color: lightyellow;
+}
+.bg-yellow-0 {
+  background-color: rgb(59, 59, 3);
+}
+.bg-yellow-1 {
+  background-color: rgb(92, 92, 6);
+}
+.bg-yellow-2 {
+  background-color: rgb(128, 128, 9);
+}
+.bg-yellow-3 {
+  background-color: rgb(175, 175, 12);
+}
+.bg-yellow-4 {
+  background-color: rgb(216, 216, 12);
+}
+.bg-yellow-5 {
+  background-color: rgb(243, 243, 13);
+}
+.bg-yellow-6 {
+  background-color: rgb(236, 236, 108);
+}
+/* bgyellow */
+
+.bg-gray {
+  background-color: gray;
+}
+.bg-lightgray {
+  background-color: lightgray;
+}
+.bg-darkgray {
+  background-color: darkgray;
+}
+.bg-gray-0 {
+  background-color: rgb(56, 55, 55);
+}
+.bg-gray-1 {
+  background-color: rgb(85, 82, 82);
+}
+.bg-gray-2 {
+  background-color: rgb(114, 111, 111);
+}
+.bg-gray-3 {
+  background-color: rgb(143, 138, 138);
+}
+.bg-gray-4 {
+  background-color: rgb(173, 168, 168);
+}
+.bg-gray-5 {
+  background-color: rgb(196, 192, 192);
+}
+.bg-gray-6 {
+  background-color: rgb(221, 217, 217);
+}
+/* bgorange */
+.bg-orange {
+  background-color: orange;
+}
+.bg-darkorange {
+  background-color: darkorange;
+}
+.bg-orange-0 {
+  background-color: rgb(82, 54, 3);
+}
+.bg-orange-1 {
+  background-color: rgb(121, 80, 4);
+}
+.bg-orange-2 {
+  background-color: rgb(160, 107, 8);
+}
+.bg-orange-3 {
+  background-color: rgb(202, 135, 10);
+}
+.bg-orange-4 {
+  background-color: rgb(241, 161, 11);
+}
+.bg-orange-5 {
+  background-color: rgb(240, 175, 56);
+}
+.bg-orange-6 {
+  background-color: rgb(241, 203, 130);
+}
+/* bgblack */
+.bg-black {
+  background-color: black;
+}
+.bg-black-0 {
+  background-color: rgb(7, 7, 7);
+}
+.bg-black-1 {
+  background-color: rgb(22, 21, 21);
+}
+.bg-black-2 {
+  background-color: rgb(31, 28, 28);
+}
+.bg-black-3 {
+  background-color: rgb(41, 36, 36);
+}
+.bg-black-4 {
+  background-color: rgb(58, 49, 49);
+}
+/* bgwhite */
+.bg-white-1 {
+  background-color: rgb(226, 217, 217);
+}
+.bg-white-2 {
+  background-color: rgb(255, 255, 255);
+}
+.bg-white {
+  background-color: white;
+}
+/* COLORS */
+.clr-brown {
+  color: brown;
+}
+.clr-chocolate {
+  color: chocolate;
+}
+.clr-crimson {
+  color: crimson;
+}
+.clr-silver {
+  color: silver;
+}
+.clr-gold {
+  color: gold;
+}
+
+/* clrBlue */
+.clr-lightblue {
+  color: lightblue;
+}
+.clr-blue {
+  color: blue;
+}
+.clr-darkblue {
+  color: darkblue;
+}
+
+.clr-blue-0 {
+  color: rgb(6, 6, 51);
+}
+.clr-blue-1 {
+  color: rgb(8, 8, 90);
+}
+.clr-blue-2 {
+  color: rgb(11, 11, 143);
+}
+.clr-blue-3 {
+  color: rgb(10, 10, 180);
+}
+.clr-blue-4 {
+  color: rgb(32, 48, 189);
+}
+.clr-blue-5 {
+  color: rgb(32, 126, 189);
+}
+.clr-blue-6 {
+  color: lightblue;
+}
+/* "dyck33zufhnugxb3xnulb7wzvrsplzty3j3kkp3bpvzs6almsrza" */
+/* clrRed */
+
+.clr-red {
+  color: red;
+}
+.clr-darkred {
+  color: darkred;
+}
+.clr-red-0 {
+  color: rgb(54, 1, 1);
+}
+.clr-red-1 {
+  color: rgb(82, 5, 5);
+}
+.clr-red-2 {
+  color: rgb(143, 9, 9);
+}
+.clr-red-3 {
+  color: rgb(233, 10, 10);
+}
+.clr-red-4 {
+  color: rgb(245, 30, 30);
+}
+.clr-red-5 {
+  color: rgb(235, 60, 60);
+}
+.clr-red-6 {
+  color: rgb(240, 106, 106);
+}
+
+/* clrgreen */
+.clr-lightgreen {
+  color: lightgreen;
+}
+.clr-green {
+  color: green;
+}
+.clr-darkgreen {
+  color: darkgreen;
+}
+.clr-green-0 {
+  color: rgb(2, 43, 2);
+}
+.clr-green-1 {
+  color: rgb(3, 75, 3);
+}
+.clr-green-2 {
+  color: rgb(7, 136, 7);
+}
+.clr-green-3 {
+  color: rgb(9, 165, 9);
+}
+.clr-green-4 {
+  color: rgb(11, 216, 11);
+}
+.clr-green-5 {
+  color: rgb(59, 230, 59);
+}
+.clr-greeen-6 {
+  color: lightgreen;
+}
+/* clrpink */
+.clr-lightpink {
+  color: lightpink;
+}
+.clr-pink {
+  color: pink;
+}
+
+.clr-pink-0 {
+  color: rgb(218, 5, 40);
+}
+.clr-pink-1 {
+  color: rgb(218, 23, 55);
+}
+.clr-pink-2 {
+  color: rgb(219, 21, 54);
+}
+.clr-pink-3 {
+  color: rgb(231, 45, 76);
+}
+.clr-pink-4 {
+  color: rgb(243, 68, 97);
+}
+.clr-pink-5 {
+  color: rgb(250, 146, 163);
+}
+.clr-pink-6 {
+  color: pink;
+}
+
+/* clraqua */
+
+.clr-aqua {
+  color: aqua;
+}
+
+.clr-aqua-0 {
+  color: rgb(1, 26, 26);
+}
+.clr-aqua-1 {
+  color: rgb(3, 48, 48);
+}
+.clr-aqua-2 {
+  color: rgb(7, 92, 92);
+}
+.clr-aqua-3 {
+  color: rgb(10, 139, 139);
+}
+.clr-aqua-4 {
+  color: rgb(15, 184, 184);
+}
+.clr-aqua-5 {
+  color: rgb(17, 207, 207);
+}
+.clr-aqua-6 {
+  color: rgb(5, 248, 248);
+}
+/* clrmagenta */
+
+.clr-magenta {
+  color: magenta;
+}
+.clr-darkmagenta {
+  color: darkmagenta;
+}
+.clr-magenta-0 {
+  color: rgb(43, 1, 43);
+}
+.clr-magenta-1 {
+  color: rgb(63, 2, 63);
+}
+.clr-magenta-2 {
+  color: rgb(90, 3, 90);
+}
+.clr-magenta-3 {
+  color: rgb(134, 5, 134);
+}
+.clr-magenta-4 {
+  color: rgb(180, 8, 180);
+}
+.clr-magenta-5 {
+  color: rgb(212, 9, 212);
+}
+.clr-magenta-6 {
+  color: magenta;
+}
+/* clrpurple */
+
+.clr-purple {
+  color: purple;
+}
+
+.clr-purple-0 {
+  color: rgb(83, 1, 83);
+}
+.clr-purple-1 {
+  color: rgb(167, 3, 167);
+}
+.clr-purple-2 {
+  color: rgb(153, 32, 153);
+}
+.clr-purple-3 {
+  color: rgb(170, 57, 170);
+}
+.clr-purple-4 {
+  color: rgb(201, 63, 201);
+}
+.clr-purple-5 {
+  color: rgb(211, 91, 211);
+}
+.clr-purple-6 {
+  color: rgb(235, 177, 235);
+}
+/* clryellow */
+
+.clr-yellow {
+  color: yellow;
+}
+.clr-lightyellow {
+  color: lightyellow;
+}
+.clr-yellow-0 {
+  color: rgb(59, 59, 3);
+}
+.clr-yellow-1 {
+  color: rgb(92, 92, 6);
+}
+.clr-yellow-2 {
+  color: rgb(128, 128, 9);
+}
+.clr-yellow-3 {
+  color: rgb(175, 175, 12);
+}
+.clr-yellow-4 {
+  color: rgb(216, 216, 12);
+}
+.clr-yellow-5 {
+  color: rgb(243, 243, 13);
+}
+.clr-yellow-6 {
+  color: rgb(236, 236, 108);
+}
+/* clryellow */
+
+.clr-gray {
+  color: gray;
+}
+.clr-lightgray {
+  color: lightgray;
+}
+.clr-darkgray {
+  color: darkgray;
+}
+.clr-gray-0 {
+  color: rgb(56, 55, 55);
+}
+.clr-gray-1 {
+  color: rgb(85, 82, 82);
+}
+.clr-gray-2 {
+  color: rgb(114, 111, 111);
+}
+.clr-gray-3 {
+  color: rgb(143, 138, 138);
+}
+.clr-gray-4 {
+  color: rgb(173, 168, 168);
+}
+.clr-gray-5 {
+  color: rgb(196, 192, 192);
+}
+.clr-gray-6 {
+  color: rgb(221, 217, 217);
+}
+/* clrorange */
+.clr-orange {
+  color: orange;
+}
+.clr-darkorange {
+  color: darkorange;
+}
+.clr-orange-0 {
+  color: rgb(82, 54, 3);
+}
+.clr-orange-1 {
+  color: rgb(121, 80, 4);
+}
+.clr-orange-2 {
+  color: rgb(160, 107, 8);
+}
+.clr-orange-3 {
+  color: rgb(202, 135, 10);
+}
+.clr-orange-4 {
+  color: rgb(241, 161, 11);
+}
+.clr-orange-5 {
+  color: rgb(240, 175, 56);
+}
+.clr-orange-6 {
+  color: rgb(241, 203, 130);
+}
+/* clrblack */
+.clr-black {
+  color: black;
+}
+.clr-black-0 {
+  color: rgb(7, 7, 7);
+}
+.clr-black-1 {
+  color: rgb(22, 21, 21);
+}
+.clr-black-2 {
+  color: rgb(31, 28, 28);
+}
+.clr-black-3 {
+  color: rgb(41, 36, 36);
+}
+.clr-black-4 {
+  color: rgb(58, 49, 49);
+}
+/* clrwhite */
+.clr-white-0 {
+  color: rgb(226, 217, 217);
+}
+.clr-white-1 {
+  color: rgb(255, 255, 255);
+}
+.clr-white {
+  color: white;
+}
+
+/*
+======X=========
+Predefined CSS
+======X=========
+*/

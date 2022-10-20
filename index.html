@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5a3a97888d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="validate()">
+      <div style="display: flex">
+        <label>UserName</label>
+        <div class="input-con">
+          <input type="text" placeholder="username" id="username" />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </div>
+        <span id="usererror">Error</span>
+      </div>
+      <br />
+      <div style="display: flex">
+        <label>Password</label>
+        <input type="text" placeholder="Password" id="password" />
+        <span id="passworderror"></span>
+      </div>
+      <br />
+      <div style="display: flex">
+        <label>Confrm Password</label>
+        <input
+          type="text"
+          placeholder="Confirm Password"
+          id="confirmpassword"
+        />
+        <!-- /* "dyck33zufhnugxb3xnulb7wzvrsplzty3j3kkp3bpvzs6almsrza" */ -->
+        <span id="confirmpassworderror"></span>
+      </div>
+      <br />
+      <div style="display: flex">
+        <label>Email</label>
+        <input type="text" placeholder="Email" id="email" />
+        <span id="emailerror"></span>
+      </div>
+      <br />
+      <div style="display: flex">
+        <label>Phone Number</label>
+        <input type="text" placeholder="Phone Number" id="phone" />
+        <span id="phoneerror"></span>
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>
