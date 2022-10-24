@@ -58,7 +58,9 @@ ELEMENTS
   border-radius: 4px;
   color: white;
   transition: 0.5s;
+  cursor: pointer;
   margin: 4px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.514);
 }
 .btn-style:hover {
   background-color: rgb(18, 18, 245);
