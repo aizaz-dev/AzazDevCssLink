@@ -1,6 +1,6 @@
 /*
 ===============
-Universal-Classes
+RESET CSS
 ===============
 */
 *,
@@ -18,7 +18,7 @@ a {
 }
 /*
 ======X=========
-Universal-Classes
+RESET CSS
 ======X=========
 */
 /*
@@ -75,6 +75,37 @@ ELEMENTS
 Predefined CSS
 ===============
 */
+.img-cover {
+  object-fit: cover;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-norepeat {
+  background-repeat: no-repeat;
+}
+.list-none {
+  list-style: none;
+}
+.decoration-none {
+  text-decoration: none;
+}
+.decoration-underline {
+  text-decoration: underline;
+}
+.decoration-linethrough {
+  text-decoration: line-through;
+}
+.transform-capital {
+  text-transform: capitalize;
+}
+.transform-upper {
+  text-transform: uppercase;
+}
+.transform-lower {
+  text-transform: lowercase;
+}
+
 /* FONTS-SIZE */
 .size-0 {
   font-size: 12px;
@@ -252,6 +283,16 @@ Predefined CSS
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.445);
 }
 /* X=== BOX-SHADOW ===X */
+
+/* === TEXT-SHADOW === */
+.text-shadow-0 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.521);
+}
+.text-shadow-1 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.829);
+}
+/* X=== TEXT-SHADOW ===X */
+
 /* === TEXT ALIGN === */
 
 .text-center {
@@ -265,6 +306,36 @@ Predefined CSS
 }
 
 /* X=== TEXT ALIGN ===X */
+/* === POSITIONS === */
+
+.pos-relative {
+  position: relative;
+}
+.pos-fixed {
+  position: fixed;
+}
+.pos-absolute {
+  position: absolute;
+}
+.pos-sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+
+/* X=== POSITIONS ===X */
+
 /* === BORDER === */
 .border-0 {
   border: 0.5px solid black;
@@ -308,6 +379,7 @@ Predefined CSS
 .border-bottom-6 {
   border-bottom: 6px solid black;
 }
+/*  */
 .border-top-0 {
   border-top: 0.5px solid black;
 }
@@ -416,7 +488,7 @@ Predefined CSS
   font-weight: 400;
 }
 .weight-4 {
-  font-weight: 500;
+  font-weight: 600;
 }
 .weight-5 {
   font-weight: 800;
@@ -670,11 +742,18 @@ Predefined CSS
   padding-bottom: auto;
 }
 /* X=== PADDING ===X */
+/* DISPLAY */
 .display-none {
   display: none;
 }
 .display-block {
   display: block;
+}
+.display-inline {
+  display: inline;
+}
+.display-inline-block {
+  display: inline-block;
 }
 /* FLEX-PROPERTIES */
 .display-flex {
@@ -1070,7 +1149,137 @@ Predefined CSS
 .h-100vh {
   height: 100vh;
 }
+/* == */
+.max-h-50px {
+  max-height: 50px;
+}
+.max-h-100px {
+  max-height: 100px;
+}
+.max-h-150px {
+  max-height: 150px;
+}
+.max-h-200px {
+  max-height: 200px;
+}
+.max-h-250px {
+  max-height: 250px;
+}
+.max-h-300px {
+  max-height: 300px;
+}
+.max-h-350px {
+  max-height: 350px;
+}
+.max-h-400px {
+  max-height: 400px;
+}
+.max-h-450px {
+  max-height: 450px;
+}
+.max-h-500px {
+  max-height: 500px;
+}
+.max-h-600px {
+  max-height: 600px;
+}
+.max-h-700px {
+  max-height: 700px;
+}
+.max-h-800px {
+  max-height: 800px;
+}
+.max-h-900px {
+  max-height: 900px;
+}
+.max-h-1000px {
+  max-height: 1000px;
+}
+.max-h-1100px {
+  max-height: 1100px;
+}
+.max-h-1200px {
+  max-height: 1200px;
+}
+.max-h-1300px {
+  max-height: 1300px;
+}
+.min-h-50px {
+  min-height: 50px;
+}
+.min-h-100px {
+  min-height: 100px;
+}
+.min-h-150px {
+  min-height: 150px;
+}
+.min-h-200px {
+  min-height: 200px;
+}
+.min-h-250px {
+  min-height: 250px;
+}
+.min-h-300px {
+  min-height: 300px;
+}
+.min-h-350px {
+  min-height: 350px;
+}
+.min-h-400px {
+  min-height: 400px;
+}
+.min-h-450px {
+  min-height: 450px;
+}
+.min-h-500px {
+  min-height: 500px;
+}
+.min-h-600px {
+  min-height: 600px;
+}
+.min-h-700px {
+  min-height: 700px;
+}
+.min-h-800px {
+  min-height: 800px;
+}
+.min-h-900px {
+  min-height: 900px;
+}
+.min-h-1000px {
+  min-height: 1000px;
+}
+.min-h-1100px {
+  min-height: 1100px;
+}
+.min-h-1200px {
+  min-height: 1200px;
+}
+.min-h-1300px {
+  min-height: 1300px;
+}
 /* X=== HEIGHT ===X */
+
+/* ===BACKGROUND COLORS === */
+
+.bg-skyblue {
+  background-color: skyblue;
+}
+.bg-navyblue {
+  background-color: navy;
+}
+.bg-wheat {
+  background-color: wheat;
+}
+.bg-parrot {
+  background-color: rgb(13, 231, 13);
+}
+.bg-reddish {
+  background-color: #a52a2a;
+}
+.bg-greenish {
+  background-color: #8a9a5b;
+}
 .bg-brown {
   background-color: brown;
 }
@@ -1216,7 +1425,6 @@ Predefined CSS
 .bg-aqua {
   background-color: aqua;
 }
-
 .bg-aqua-0 {
   background-color: rgb(1, 26, 26);
 }
@@ -1403,16 +1611,20 @@ Predefined CSS
   background-color: rgb(58, 49, 49);
 }
 /* bgwhite */
+.bg-white {
+  color: white;
+}
+.bg-white-0 {
+  background-color: rgb(197, 182, 182);
+}
 .bg-white-1 {
   background-color: rgb(226, 217, 217);
 }
 .bg-white-2 {
   background-color: rgb(255, 255, 255);
 }
-.bg-white {
-  background-color: white;
-}
-/* COLORS */
+/*==X==== BACKGROUND ======X==*/
+/* COMMON_COLORS */
 .clr-brown {
   color: brown;
 }
